@@ -1,0 +1,119 @@
+
+.menu ul li{
+	line-height:10px;
+	text-align:center;
+	text-transform:capitalize;
+	border:1px solid white;
+	border-style:none solid none none;
+	
+}
+.menu ul li a{
+	color:white;
+}
+.banner{
+	height:500px;
+	background-image:url(design-development-electronics-326424.jpg);
+	background-size:cover;
+	
+}
+.logo{
+	font-size:45px;
+	line-height:80px;
+}
+.home{
+	font-size:18px;
+	line-height:80px;
+}
+.ccit{
+	color:orange;
+	background-color:none;height:50px;
+	font-size:55px;
+}
+.login{
+}
+.ccitDes{
+	color:steelblue;
+	font-weight:bold;
+	text-align:justify;
+	padding:0px 10px 0px 10px;
+	font-size:20px;
+}
+.ccitDes div{
+	margin-top:30px;
+}
+.pic1{
+	
+	font-size:45px;
+}
+.pic2{
+	
+	text-align:justify;
+	font-size:20px;
+}
+.services{
+	margin-top:100px;
+	height:200px;
+}
+
+.services div{
+	margin-left:50px;
+}
+
+#mar1{
+	margin-left:100px;
+	
+	  background-image:url(design-development-electronics-326424.jpg);
+	  background-size:cover;
+}
+
+#mar2{
+		
+	  background-image:url(computer-lab-png-computer-lab-300.png);
+	  background-size:cover;
+}
+#mar3{
+	  background-image:url(gray-computer-mobile-technology-preview.jpg);
+	  background-size:cover;
+}
+.market{
+	margin-top:60px;
+	height:550px;
+}
+#ab{
+		background-color:red;
+	  background-image:url(professional-web-design-calgary.jpg);
+	  background-size:cover;
+}
+
+@media screen and (max-width:1000px) {
+  
+  .ccitDes{
+	  font-size:18px;
+  }
+  .services {
+	  margin-left:0px;
+	  width:100%;
+  }
+  .services div{
+	  margin-top:20px;
+	  margin-left:40px;
+	  height:200px;
+	  width:80%;
+  }
+  #mar1{
+	  margin-left:40px;
+  }
+ }
+ @media screen and (max-width:600px){
+	 
+  .market{
+	  position:relative;
+	  top:450px;
+	  height:300px;
+	  margin:20px;
+  }
+  .horline{
+	  position:relative;
+	  top:450px;
+  }
+ }
